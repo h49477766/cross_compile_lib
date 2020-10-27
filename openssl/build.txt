@@ -1,0 +1,5 @@
+source ~/set_environment-kanontec.sh 
+./Configure --prefix=`pwd`/../install shared no-asm linux-armv4
+cp -a * ~/work/akeeta_gateway/exteral/konke/
+make 
+make install
